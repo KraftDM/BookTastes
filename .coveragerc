@@ -1,0 +1,3 @@
+[run]
+source = BookTastes
+omit = BookTastes/test*

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>{% block title %}{% endblock title%}</title>
+</head>
+    <body>
+       <div id="roof">
+       <a href="/">Главная</a>
+        <a href="/recepts">Рецепты</a>
+        <a href="/collection">Сбоники</a>
+       </div>
+       <div id="content">
+           {% block content %}
+           {% endblock content%}
+       </div>
+    </body>
+</html>
