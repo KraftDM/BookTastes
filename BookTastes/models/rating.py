@@ -2,7 +2,8 @@ from sqlalchemy import (
     Column,
     Integer,
     ForeignKey,
-    DateTime
+    DateTime,
+    Index
 )
 from sqlalchemy.orm import relationship
 
@@ -25,3 +26,6 @@ class Rating(Base):
     author = relationship("User")
 
     creation_date = Column(DateTime, nullable=False)
+
+    Index('idx_rating_recipe_id', recipe_id)
+    Index('idx_rating_user_id', author_id)

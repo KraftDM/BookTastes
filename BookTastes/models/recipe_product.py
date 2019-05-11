@@ -2,7 +2,8 @@ from sqlalchemy import (
     Column,
     Integer,
     DECIMAL,
-    ForeignKey
+    ForeignKey,
+    Index
 )
 from sqlalchemy.orm import relationship
 
@@ -21,3 +22,6 @@ class RecipeProduct(Base):
     unit_type = relationship("UnitType")
     amount = Column(DECIMAL, nullable=False)
     recipe_id = Column(Integer, ForeignKey('recipe.id'))
+
+    Index('idx_recipe_product_unit_type_id', unit_type_id)
+    Index('idx_recipe_product_recipe_id', recipe_id)

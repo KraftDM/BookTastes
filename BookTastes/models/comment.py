@@ -3,7 +3,8 @@ from sqlalchemy import (
     Integer,
     ForeignKey,
     String,
-    DateTime
+    DateTime,
+    Index
 )
 from sqlalchemy.orm import relationship
 
@@ -26,3 +27,6 @@ class Comment(Base):
     author = relationship("User")
 
     creation_date = Column(DateTime, nullable=False)
+
+    Index('idx_comment_recipe_id', recipe_id)
+    Index('idx_comment_user_id', author_id)

@@ -3,7 +3,8 @@ from sqlalchemy import (
     Integer,
     ForeignKey,
     String,
-    Table
+    Table,
+    Index
 )
 from sqlalchemy.orm import relationship
 
@@ -28,3 +29,4 @@ class RecipeBook(Base):
     author_id = Column(Integer, ForeignKey('user.id'), nullable=False)
     author = relationship("User")
 
+    Index('idx_recipe_book_user_id', author_id)

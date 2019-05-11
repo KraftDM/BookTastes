@@ -3,7 +3,8 @@ from sqlalchemy import (
     Integer,
     ForeignKey,
     String,
-    DateTime
+    DateTime,
+    Index
 )
 from sqlalchemy.orm import relationship
 
@@ -28,3 +29,5 @@ class Recipe(Base):
 
     comments = relationship("Comment")
     ratings = relationship("Rating")
+
+    Index('idx_recipe_user_id', author_id)
