@@ -1,7 +1,6 @@
 from sqlalchemy import (
     Column,
     Integer,
-    DECIMAL,
     ForeignKey,
     String,
     DateTime
@@ -13,7 +12,7 @@ from .meta import Base
 
 class Recipe(Base):
     """
-    Класс описывающий рецепт
+    Класс, описывающий рецепт
     """
     __tablename__ = 'recipe'
     id = Column(Integer, primary_key=True)
@@ -26,3 +25,6 @@ class Recipe(Base):
     recipe_products = relationship("RecipeProduct")
     author_id = Column(Integer, ForeignKey('user.id'), nullable=False)
     author = relationship("User")
+
+    comments = relationship("Comment")
+    ratings = relationship("Rating")

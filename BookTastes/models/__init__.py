@@ -12,6 +12,8 @@ from .recipe_product import RecipeProduct
 from .unit_type import UnitType
 from .recipe import Recipe
 from .recipe_book import RecipeBook
+from .rating import Rating
+from .comment import Comment
 
 # run configure_mappers after defining all of the models to ensure
 # all relationships can be setup
