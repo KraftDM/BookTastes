@@ -10,6 +10,7 @@ from .user import User
 from .product import Product
 from .recipe_product import RecipeProduct
 from .unit_type import UnitType
+from .recipe import Recipe
 
 # run configure_mappers after defining all of the models to ensure
 # all relationships can be setup

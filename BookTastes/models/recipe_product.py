@@ -20,3 +20,4 @@ class RecipeProduct(Base):
     unit_type_id = Column(Integer, ForeignKey('unit_type.id'), nullable=False)
     unit_type = relationship("UnitType")
     amount = Column(DECIMAL, nullable=False)
+    recipe_id = Column(Integer, ForeignKey('recipe.id'))
