@@ -7,13 +7,14 @@ from sqlalchemy.exc import DBAPIError
 
 @view_config(route_name='home', renderer='../templates/index.jinja2')
 def my_view(request):
-    try:
-        query = request.dbsession.query(models.User)
-        one = query.filter(models.User.login == 'admin').first()
-        print(one.name)
-    except DBAPIError:
-        return Response(db_err_msg, content_type='text/plain', status=500)
-    return {'one': one, 'project': 'index'}
+    # try:
+    #     query = request.dbsession.query(models.User)
+    #     one = query.filter(models.User.login == 'admin').first()
+    #     print(one.name)
+    # except DBAPIError:
+    #     return Response(db_err_msg, content_type='text/plain', status=500)
+    recepts = [{'name': 'Горячие пирожки', 'time': '40 минут', 'portions': '8 порций'}]
+    return {'recepts': recepts, 'project': 'index'}
 
 
 @view_config(route_name='recepts', renderer='../templates/recepts.jinja2')

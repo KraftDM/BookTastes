@@ -3,7 +3,6 @@ from sqlalchemy import engine_from_config
 from sqlalchemy.orm import configure_mappers
 from sqlalchemy.orm import sessionmaker
 
-
 # import or define all models here to ensure they are attached to the
 # Base.metadata prior to any initialization routines
 from .user import User
@@ -19,10 +18,8 @@ from .comment import Comment
 # all relationships can be setup
 configure_mappers()
 
-
 def get_engine(settings, prefix='sqlalchemy.'):
     return engine_from_config(settings, prefix)
-
 
 def get_session_factory(engine):
     factory = sessionmaker()

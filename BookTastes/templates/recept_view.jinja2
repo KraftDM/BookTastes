@@ -1,6 +1,56 @@
 {% extends "base.jinja2" %}
 
+{% block title %}
+  Рецепты
+{% endblock title %}
+
 {% block content %}
-    <p>This page for {{idRecept}} recept</p>
-{% endblock content%}
+  <div class="recept-content">
+    <div class="recept_head1">
+      <div class="recept-head1_time">40 минут</div>
+      <div class="recept-head1_portions">8 порций</div>
+      <div class="recept-head1_author">Автор: Papirosim228</div>
+    </div>
+    <div class="recept_head2">
+      <div class="recept_head_title">
+        <h1>Горячие пирожки</h1>
+        <p>Какое-то небольшое описание. Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.</p>
+      </div>
+      <img src="../static/no-photo.png">
+    </div>
+    <div class="catalog">
+      <div class="recept_ingridients">
+        <h2>Ингедиенты</h2>
+        <table>
+          <tr>
+            <td class="ingridient">Лук</td>
+            <td>2 кг</td>
+          </tr>
+          <tr>
+            <td class="ingridient">Тесто</td>
+            <td>0.5 кг</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="recept_prigotovlenie">
+      <h2>Процесс приготовления</h2>
+      <div class="stage">
+        <h3>Этап 1</h3>
+        <p>Тут текст про первый этап! Какое-то небольшое описание. Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.</p>
+        <img src="../static/no-photo.png">
+      </div>
+      <div class="stage last">
+        <h3>Этап 2</h3>
+        <p>Тут текст про второй этап! Какое-то небольшое описание. Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.</p>
+        <img src="../static/no-photo.png">
+      </div>
+    </div> 
+    <div class="recept_itog">
+      <h2>Итог</h2>
+      <p> Тут подводится какой-то итог! Бла-Бла-Бла. Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.
+      </p>
+    </div>
+  </div>  
+{% endblock content %}
 

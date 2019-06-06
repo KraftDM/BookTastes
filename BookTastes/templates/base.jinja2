@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="utf-8" />
-    <title>{% block title %}{% endblock title%}</title>
+  <meta charset="utf-8" />
+  <title>{% block title %}{% endblock title %}</title>
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" type="text/css" href="../static/style.css" />
 </head>
-    <body>
-       <div id="roof">
-       <a href="/">Главная</a>
-        <a href="/recepts">Рецепты</a>
-        <a href="/collection">Сбоники</a>
-       </div>
-       <div id="content">
-           {% block content %}
-           {% endblock content%}
-       </div>
-    </body>
+  <body>
+    <div class="header">
+      <div class="headline">
+        <div class="logo">
+            <a class="logo__link" href="/"></a>
+        </div>
+        <div class="menu">
+          <nav>
+            <ul class="menu-switcher">
+              <li class="menu-switcher__item"><a href="/recepts">Рецепты</a></li>
+              <li class="menu-switcher__item"><a href="/collection">Сборники</a></li>
+              <li class="menu-switcher__item"><a href="">Продукты</a></li>
+              <li class="menu-switcher__item"><a href="">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="auth">
+          <a class="auth__link" href="">Войти</a>
+        </div>
+      </div>
+      {% block call %}
+      {% endblock call %}
+    </div>
+    {% block content %}
+    {% endblock content%}
+    <div class="footer">
+      <div class="footer-container">
+        <a class="pull-left" href="">Контакты</a>
+        <div class="pull-right">2019 © Перепечатка материалов разрешена только с активной ссылкой на booktastes.ru</div>
+      </div>
+    </div>
+  </body>
 </html>
