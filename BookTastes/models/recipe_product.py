@@ -12,7 +12,6 @@ from .meta import Base
 
 class RecipeProduct(Base):
     """
-    Класс описывающий количество необходимого продукта для рецепта
     """
     __tablename__ = 'recipe_product'
     id = Column(Integer, primary_key=True)

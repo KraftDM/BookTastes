@@ -10,7 +10,6 @@ from sqlalchemy.orm import relationship
 
 from .meta import Base
 
-# вспосогательная таблица отношения manyToMany для рецепта и книги рецептов
 association_table_recipe_cook_2_recipe = Table('recipe_book_2_recipe', Base.metadata,
                                                Column('recipe_book_id', Integer, ForeignKey('recipe_book.id')),
                                                Column('recipe_id', Integer, ForeignKey('recipe.id'))
@@ -19,7 +18,6 @@ association_table_recipe_cook_2_recipe = Table('recipe_book_2_recipe', Base.meta
 
 class RecipeBook(Base):
     """
-    Класс описывающий сборник рецептов
     """
     __tablename__ = 'recipe_book'
     id = Column(Integer, primary_key=True)

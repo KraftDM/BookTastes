@@ -18,12 +18,12 @@ def getString(count, endings):
       return '{} {}'.format(count, endings[2])
 
 def formatPortions(count):
-  endings = ['порция', 'порции', 'порций']
+  endings = ['portion', 'portions', 'portions']
   return getString(count, endings)
 
 def formatTimes(count):
-  endingsMinutes = ['минута', 'минуты', 'минут']
-  endingsHours = ['час', 'часа', 'часов']
+  endingsMinutes = ['minute', 'minutes', 'minutes']
+  endingsHours = ['hour', 'hours', 'hour']
   hours = count // 60
   minutes = count % 60
   result = ''
@@ -42,9 +42,9 @@ def my_view(request):
     #     print(one.name)
     # except DBAPIError:
     #     return Response(db_err_msg, content_type='text/plain', status=500)
-    receptsDb = [{'name': 'Горячие пирожки', 'time': 40, 'count_of_portion': 8, 'image': '../static/s1201.jpg'},
-    {'name': 'Горячие пирожки', 'time': 40, 'count_of_portion': 8, 'image': '../static/no-photo.png'},
-    {'name': 'Горячие пирожки', 'time': 40, 'count_of_portion': 8, 'image': '../static/s1201.jpg'}]
+    receptsDb = [{'name': 'Hot cakes', 'time': 40, 'count_of_portion': 8, 'image': '../static/s1201.jpg'},
+    {'name': 'Hot cakes', 'time': 40, 'count_of_portion': 8, 'image': '../static/no-photo.png'},
+    {'name': 'Hot cakes', 'time': 40, 'count_of_portion': 8, 'image': '../static/s1201.jpg'}]
     recepts = []
     for recept in receptsDb:
       recepts.append({'name': recept['name'], 'time': formatTimes(recept['time']), 'portions': formatPortions(recept['count_of_portion']), 'image': recept['image']})
@@ -65,13 +65,13 @@ def my_view3(request):
 def my_view4(request):
     id = request.matchdict['id']
     receptDb = {
-      'name': 'Горячие пирожки',
+      'name': 'Hot cakes',
       'time': 40,
       'count_of_portion': 8,
       'image': '../static/s1201.jpg',
       'author': 'alex',
-      'description': 'Какое-то небольшое описание. Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.',
-      'total': 'Тут подводится какой-то итог! Бла-Бла-Бла. Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.'
+      'description': 'Some small description. Equally, constant quantitative growth and the scope of our activity plays an important role in shaping the system of personnel training, it meets urgent needs.',
+      'total': 'Here is some kind of summary! Blah blah blah. Equally, constant quantitative growth and the scope of our activity plays an important role in shaping the system of personnel training, it meets urgent needs.'
     }
     recept = {
       'name': receptDb['name'],
@@ -80,14 +80,14 @@ def my_view4(request):
       'image': receptDb['image'],
       'author': receptDb['author'],
       'description': receptDb['description'],
-      'ingredients': [{'name': 'Лук', 'count': '2 кг'}, {'name': 'Тесто', 'count': '0.5 кг'}, {'name': 'Тесто', 'count': '0.5 кг'}],
+      'ingredients': [{'name': 'Onion', 'count': '2 kg'}, {'name': 'dough', 'count': '0.5 kg'}, {'name': 'dough', 'count': '0.5 kg'}],
       'stages': [{
         'index': 1,
-        'description': 'Тут текст про первый этап! Какое-то небольшое описание. Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.',
+        'description': 'Here is the text about the first stage! Some small description. Equally, constant quantitative growth and the scope of our activity plays an important role in shaping the system of personnel training, it meets urgent needs.',
         'image': '../static/no-photo.png'
       }, {
         'index': 2,
-        'description': 'Тут текст про второй этап! Какое-то небольшое описание. Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.',
+        'description': 'Here the text about the second stage! Some small description. Equally, constant quantitative growth and the scope of our activity plays an important role in shaping the system of personnel training, it meets urgent needs.',
         'image': '../static/no-photo.png'
       }],
       'total': receptDb['total']

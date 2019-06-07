@@ -13,7 +13,6 @@ from .meta import Base
 
 class Comment(Base):
     """
-    Класс, описывающий комментарий пользователем рецепта
     """
     __tablename__ = 'comment'
     id = Column(Integer, primary_key=True)

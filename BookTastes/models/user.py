@@ -9,7 +9,6 @@ from .meta import Base
 
 class User(Base):
     """
-    Данный класс является хранителем полной информации о пользователе
     """
     __tablename__ = 'user'
     id = Column(Integer, primary_key=True)

@@ -12,7 +12,6 @@ from .meta import Base
 
 class Rating(Base):
     """
-    Класс, описывающий оценку пользователем рецепта
     """
     __tablename__ = 'rating'
     id = Column(Integer, primary_key=True)

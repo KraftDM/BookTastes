@@ -13,7 +13,6 @@ from .meta import Base
 
 class Recipe(Base):
     """
-    Класс, описывающий рецепт
     """
     __tablename__ = 'recipe'
     id = Column(Integer, primary_key=True)
