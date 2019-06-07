@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f43ab735-78a0-4fe9-bbe3-58996c1ccbf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BookTastes/hello_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookTastes/login_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookTastes/getform.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookTastes/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookTastes/models/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookTastes/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookTastes/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookTastes/templates/404.jinja2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookTastes/templates/base.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/BookTastes/templates/base.jinja2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookTastes/templates/collection.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/BookTastes/templates/collection.jinja2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookTastes/templates/index.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/BookTastes/templates/index.jinja2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookTastes/templates/layout.jinja2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookTastes/templates/mytemplate.jinja2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BookTastes/templates/recept_view.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/BookTastes/templates/recept_view.jinja2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookTastes/templates/recepts.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/BookTastes/templates/recepts.jinja2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookTastes/views/default.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookTastes/views/default.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/development.ini" beforeDir="false" afterPath="$PROJECT_DIR$/development.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,66 +17,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BookTastes/routes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+            <state relative-caret-position="391">
+              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
-                <marker date="1559841594437" expanded="true" signature="740:791" ph="..." />
+                <marker date="1559933267005" expanded="true" signature="796:847" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Web/BookTastes/env3/Lib/site-packages/pyramid/config/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookTastes/hello_factory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookTastes/login_controller.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BookTastes/views/default.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
+            <state relative-caret-position="136">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookTastes/models/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -106,6 +58,10 @@
       <find>one</find>
       <find>route</find>
       <find>routes</find>
+      <find>404</find>
+      <find>stage</find>
+      <find>catalog</find>
+      <find>favic</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Dmitrii Kraft\Documents\Web\BookTastes</dir>
@@ -122,16 +78,23 @@
         <option value="$PROJECT_DIR$/BookTastes/scripts/initialize_db.py" />
         <option value="$PROJECT_DIR$/BookTastes/views/login_controller.py" />
         <option value="$PROJECT_DIR$/BookTastes/views/HelloFactory.py" />
-        <option value="$PROJECT_DIR$/BookTastes/views/default.py" />
         <option value="$PROJECT_DIR$/BookTastes/login_controller.py" />
         <option value="$PROJECT_DIR$/BookTastes/models/__init__.py" />
+        <option value="$PROJECT_DIR$/BookTastes/tests.py" />
+        <option value="$USER_HOME$/Downloads/test.py" />
         <option value="$PROJECT_DIR$/BookTastes/routes.py" />
+        <option value="$PROJECT_DIR$/BookTastes/getform.py" />
+        <option value="$PROJECT_DIR$/BookTastes/templates/create-recept.jinja2" />
+        <option value="$PROJECT_DIR$/BookTastes/views/default.py" />
+        <option value="$PROJECT_DIR$/BookTastes/templates/404.jinja2" />
+        <option value="$PROJECT_DIR$/BookTastes/static/style.css" />
+        <option value="$PROJECT_DIR$/env3/Lib/site-packages/pyramid/scaffolds/alchemy/+package+/views/notfound.py_tmpl" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-690" />
-    <option name="y" value="-29" />
+    <option name="y" value="-30" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -156,7 +119,32 @@
               <item name="BookTastes" type="b2602c69:ProjectViewProjectNode" />
               <item name="BookTastes" type="462c0819:PsiDirectoryNode" />
               <item name="BookTastes" type="462c0819:PsiDirectoryNode" />
+              <item name="alembic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookTastes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookTastes" type="462c0819:PsiDirectoryNode" />
+              <item name="BookTastes" type="462c0819:PsiDirectoryNode" />
+              <item name="alembic" type="462c0819:PsiDirectoryNode" />
+              <item name="versions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookTastes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookTastes" type="462c0819:PsiDirectoryNode" />
+              <item name="BookTastes" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookTastes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookTastes" type="462c0819:PsiDirectoryNode" />
+              <item name="BookTastes" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookTastes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookTastes" type="462c0819:PsiDirectoryNode" />
+              <item name="BookTastes" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,25 +235,33 @@
       <option name="presentableId" value="Default" />
       <updated>1555055133810</updated>
     </task>
+    <task id="LOCAL-00001" summary="добавлены шаблоны: главная, рецепты, просмотр рецепта. В методы питон возвращают массив обьектов.">
+      <created>1559841844097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559841844097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25134048" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2546917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.26308346" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75" weight="0.32956153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49865952" weight="0.24752475" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.25" side_tool="true" weight="0.12305516" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798927" weight="0.24752475" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -273,6 +269,13 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавлены шаблоны: главная, рецепты, просмотр рецепта. В методы питон возвращают массив обьектов." />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены шаблоны: главная, рецепты, просмотр рецепта. В методы питон возвращают массив обьектов." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BookTastes/static/pyramid.png">
@@ -283,13 +286,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CHANGES.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookTastes/templates/404.jinja2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BookTastes/alembic/versions/20190412_e199390a60c0.py" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -306,27 +302,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookTastes/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookTastes/templates/mytemplate.jinja2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookTastes/templates/layout.jinja2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/templates/mytemplate.jinja2" />
+    <entry file="file://$PROJECT_DIR$/BookTastes/templates/layout.jinja2" />
     <entry file="file://$USER_HOME$/Downloads/sqlalhemy/pycon2013_student_package/03_sql_expressions.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -368,28 +345,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/development.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BookTastes/scripts/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/BookTastes/views/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookTastes/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -429,23 +389,12 @@
     <entry file="file://$PROJECT_DIR$/BookTastes.sqlite">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Web/BookTastes/env3/Lib/site-packages/pyramid/config/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookTastes/hello_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="34" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/Downloads/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/BookTastes/login_controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
@@ -453,30 +402,182 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/templates/base.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Web/BookTastes/env3/Lib/site-packages/pyramid/config/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1880">
+          <caret line="537" column="8" selection-start-line="537" selection-start-column="8" selection-end-line="537" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/getform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/hello_factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/templates/create-recept.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/models/recipe_book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/models/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BookTastes/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-697">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookTastes/views/default.py">
+    <entry file="file://$PROJECT_DIR$/BookTastes/alembic/versions/20190511_741d76c1f981.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/alembic/versions/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="96" selection-start-line="6" selection-end-line="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BookTastes/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        <state relative-caret-position="391">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
-            <marker date="1559841594437" expanded="true" signature="740:791" ph="..." />
+            <marker date="1559933267005" expanded="true" signature="796:847" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/templates/404.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env3/Lib/site-packages/pyramid_debugtoolbar/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env3/Lib/site-packages/pyramid_debugtoolbar-4.5.dist-info/METADATA">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1576">
+          <caret line="221" column="3" selection-start-line="221" selection-start-column="3" selection-end-line="221" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="256" column="23" lean-forward="true" selection-start-line="256" selection-start-column="23" selection-end-line="256" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/models/rating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <folding>
+            <element signature="e#0#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/templates/index.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/models/product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env3/Lib/site-packages/pyramid/scaffolds/alchemy/+package+/views/notfound.py_tmpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookTastes/views/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

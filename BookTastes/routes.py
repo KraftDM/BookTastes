@@ -12,6 +12,7 @@ def includeme(config):
     config.add_route('recepts', '/recepts')
     config.add_route('collection', '/collection')
     config.add_route('recept_view', '/recepts/{id:\w+}')
+    config.add_route('create_recept', '/create-recept')
 
     authn_policy = AuthTktAuthenticationPolicy('seekrit', hashalg='sha512')
     authz_policy = ACLAuthorizationPolicy()

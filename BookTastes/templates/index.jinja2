@@ -19,10 +19,12 @@
 {% block content %}
   <div class="catalog">
     <div class="search">
-      <form action="">
+      <form action="/" method="post">
         <input
           type="text"
           placeholder="Введите название рецепта, сборника или игридиента"
+          id="facultyId"
+          name="facultyId"
           value=""
         />
         <button class="search" type="submit"></button>
@@ -58,30 +60,6 @@
     <h2 class="recepts-catalog__header">Рецепты</h2>
     <div class="recepts-catolog">
       {% for recept in recepts %}
-        <div class="recept-catalog__row">
-          <div class="recept-catalog__item rci_left">
-            <div class="dificult">
-              <div class="cook"></div>
-              <div class="cook"></div>
-              <div class="cook"></div>
-              <div class="cook"></div>
-            </div>
-            <a href="" class="recept-catalog__item__img__link">
-              <img src="../static/s1201.jpg" class="recept-catalog__item__img">
-            </a>
-            <div class="recept-catalog__item__title">
-              <a href="">{{recept['name']}}</a>
-            </div>
-            <div class="recept-catalog__item__content">
-              <div class="recept-catalog__item__time">{{recept['time']}}</div>
-              <div class="recept-catalog__item__portions">{{recept['portions']}}</div>
-            </div>
-          </div>
-          <div class="recept-catalog__item"></div>
-          <div class="recept-catalog__item rci_right"></div>
-        </div>
-      {% endfor %}
-      <div class="recept-catalog__row">
         <div class="recept-catalog__item rci_left">
           <div class="dificult">
             <div class="cook"></div>
@@ -90,24 +68,17 @@
             <div class="cook"></div>
           </div>
           <a href="" class="recept-catalog__item__img__link">
-            <img src="../static/s1201.jpg" class="recept-catalog__item__img">
+            <img src="{{recept['image']}}" class="recept-catalog__item__img">
           </a>
           <div class="recept-catalog__item__title">
-            <a href="">Горячие пирожки</a>
+            <a href="">{{recept['name']}}</a>
           </div>
           <div class="recept-catalog__item__content">
-            <div class="recept-catalog__item__time">40 минут</div>
-            <div class="recept-catalog__item__portions">8 порций</div>
+            <div class="recept-catalog__item__time">{{recept['time']}}</div>
+            <div class="recept-catalog__item__portions">{{recept['portions']}}</div>
           </div>
         </div>
-        <div class="recept-catalog__item"></div>
-        <div class="recept-catalog__item rci_right"></div>
-      </div>
-      <div class="recept-catalog__row last_row">
-        <div class="recept-catalog__item rci_left"></div>
-        <div class="recept-catalog__item"></div>
-        <div class="recept-catalog__item rci_right"></div>
-      </div>
+      {% endfor %}
     </div>     
     <div class="recepts-catalog__btn">
       <a href="/recepts">Все рецепты</a>
