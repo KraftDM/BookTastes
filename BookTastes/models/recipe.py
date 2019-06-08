@@ -25,6 +25,8 @@ class Recipe(Base):
     recipe_products = relationship("RecipeProduct")
     author_id = Column(Integer, ForeignKey('user.id'), nullable=False)
     author = relationship("User")
+    image = Column(String, nullable=False, default='../static/no-photo.png')
+
 
     comments = relationship("Comment")
     ratings = relationship("Rating")
